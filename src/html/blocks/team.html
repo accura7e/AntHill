@@ -1,0 +1,24 @@
+<div class="team">
+    <div class="container">
+        <div class="team__title">
+            <h2 class="title-h2">
+                НАША КОМАНДА
+            </h2>
+        </div>
+        <div class="team__subtitle">
+            <p>ХАРАКТЕРИСТИКА</p>
+        </div>
+
+        <div class="team__slider">
+            <div class="team-swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                    @@loop('./components/team-slide.html', './data/team.json')
+                </div>
+
+              </div>
+        </div>
+
+    </div>
+</div>
