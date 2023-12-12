@@ -4,16 +4,39 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Стартовый шаблон</title>
+		<title>AntHill - за нами будущие</title>
+
+		<link rel="apple-touch-icon" sizes="180x180" href="../img/favIcons/apple-touch-icon.png">
+		<link rel="icon" type="./image/png" sizes="32x32" href="../img/favIcons/favicon-32x32.png">
+		<link rel="icon" type="./image/png" sizes="16x16" href="../img/favIcons/favicon-16x16.png">
+		<link rel="manifest" href="../img/favIcons/site.webmanifest">
+		<link rel="mask-icon" href="../img/favIcons/safari-pinned-tab.svg" color="#000000">
+		<meta name="msapplication-TileColor" content="#000000">
+		<meta name="theme-color" content="#ffffff">
+
 		<link rel="stylesheet" href="./css/main.css" />
 	</head>
 	<body>
 		@@include('blocks/header.html')
-		@@include('blocks/mission.html')
-		@@include('blocks/projects.html')
-		@@include('blocks/team.html')
-		@@include('blocks/faq.html')
-		@@include('blocks/footer.html')
+		<div class="main">
+			<picture class="deco__wrapper deco__wrapper--first">
+				<source srcset="" media="(min-width:900px)">
+				<img src="./img/deco/deco-main.svg" alt="" class="deco">
+			</picture>
+				@@include('blocks/mission.html')
+				@@include('blocks/projects.html')
+				@@include('blocks/team.html')
+				@@include('blocks/faq.html')
+				@@include('blocks/socials.html')
+			<picture class="deco__wrapper deco__wrapper--last">
+				<source srcset="" media="(min-width:900px)">
+				<img src="./img/deco/deco-footer.svg" alt="" class="deco">
+			</picture>
+
+		</div>
+
+
+		<!-- @@include('blocks/footer.html') -->
 		<script src="./js/index.bundle.js"></script>
 	</body>
 </html>

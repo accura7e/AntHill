@@ -1,6 +1,8 @@
 .team {
     padding-bottom: 55px;
     overflow-x: hidden;
+    position: relative;
+    z-index: 10;
 }
 
 .team__title {
@@ -19,10 +21,11 @@
 .team__slide {
     height: 100%;
     display: flex;
+    background-color: #000;
 }
 
 .team__slide-avatar {
-    border: 1px solid #A2FF00;
+    border: 1px solid var(--accent);
 
     width: 143px;
 }
@@ -44,12 +47,12 @@
     padding-top: 15px;
     padding-left: 26px;
     padding-bottom: 19px;
-    border: 1px solid #A2FF00;
+    border: 1px solid var(--accent);
     font-family: 'Space Grotesk', sans-serif;
 }
 .team__slide-person-title {
     margin-bottom: 2px;
-    color: #A2FF00;
+    color: var(--accent);
     font-size: 12px;
     font-weight: 700;
     position: relative;
@@ -65,7 +68,7 @@
     }
 }
 .team__slide-person-list {
-    color: #A2FF00;
+    color: var(--accent);
     font-size: 12px;
     opacity: 0.6;
     font-weight: 700;
@@ -88,7 +91,7 @@
 }
 
 .team__slide-about {
-    border: 1px solid #A2FF00;
+    border: 1px solid var(--accent);
     padding: 15px 30px;
     min-height: 180px;
     

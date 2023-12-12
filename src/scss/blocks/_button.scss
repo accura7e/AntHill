@@ -1,0 +1,13 @@
+.button{
+    display: block;
+    color: var(--accent);
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: normal;
+    padding: 11px 43px;
+    border: 1px solid var(--accent);
+    background: rgba(162, 255, 0, 0.30);
+    text-transform: uppercase;
+    text-align: center;
+}

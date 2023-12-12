@@ -4,7 +4,16 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Стартовый шаблон</title>
+		<title>AntHill - за нами будущие</title>
+
+		<link rel="apple-touch-icon" sizes="180x180" href="../img/favIcons/apple-touch-icon.png">
+		<link rel="icon" type="./image/png" sizes="32x32" href="../img/favIcons/favicon-32x32.png">
+		<link rel="icon" type="./image/png" sizes="16x16" href="../img/favIcons/favicon-16x16.png">
+		<link rel="manifest" href="../img/favIcons/site.webmanifest">
+		<link rel="mask-icon" href="../img/favIcons/safari-pinned-tab.svg" color="#000000">
+		<meta name="msapplication-TileColor" content="#000000">
+		<meta name="theme-color" content="#ffffff">
+
 		<link rel="stylesheet" href="./css/main.css" />
 	</head>
 	<body>
@@ -17,6 +26,7 @@
         <img src="./img/hero/logo.svg" alt="">
     </a>
     <picture class="header__background">
+        <source srcset="" media="(min-width:900px)">
         <img src="./img/hero/hero.png" alt="">
     </picture>
 
@@ -31,7 +41,12 @@
 	</ul>
 </div>
 
-		<section class="mission">
+		<div class="main">
+			<picture class="deco__wrapper deco__wrapper--first">
+				<source srcset="" media="(min-width:900px)">
+				<img src="./img/deco/deco-main.svg" alt="" class="deco">
+			</picture>
+				<section class="mission">
     <div class="container">
         <div class="mission__title">
             <h2 class="title-h2">НАША МИССИЯ</h2>
@@ -45,7 +60,7 @@
         </div>
     </div>
 </section>
-		<section class="projects">
+				<section class="projects">
     <div class="container">
         <div class="projects__title">
             <h2 class="title-h2">НАШИ ПРОЕКТЫ</h2>
@@ -119,7 +134,7 @@
         
     </div>
 </section>
-		<div class="team">
+				<div class="team">
     <div class="container">
         <div class="team__title">
             <h2 class="title-h2">
@@ -335,7 +350,7 @@
 
     </div>
 </div>
-		<section class="faq">
+				<section class="faq">
     <div class="container">
         <div class="faq__title">
             <h2 class="title-h2">
@@ -380,12 +395,46 @@
         </div>
     </div>
 </section>
-		<footer class="footer">
-	<div class="container">
-		<h2>Footer</h2>
-	</div>
-</footer>
+				<section class="socials">
+    <div class="container">
+        <div class="socials__column">
+            <div class="socials__desc">
+                <div class="socials__desc-title">
+                    <h2 class="title-h2">
+                        СВЯЗАТЬСЯ С НАМИ
+                    </h2>
+                </div>
+                <div class="socials__desc-text">
+                    <p>Если у вас остались вопросы о AntHill или хотелось бы получить более подробную информацию </p>
+                </div>
+                <div class="socials__desc-button">
+                    <a href="mailto:ianthill.com@gmail.com" class="button">напишите нам</a>
+                </div>
+            </div>
 
+            <div class="socials__links">
+
+
+                <ul class="socials__links-list">
+                    <li><a href="https://t.me/AntHiLL4main" target="_blank">[telegram]</a></li>
+                    <li><a href="https://discord.com/invite/PBqf6nJN7d" target="_blank">[discord]</a></li>
+                    <li><a href="https://github.com/AntHill-dev" target="_blank">[github]</a></li>
+                </ul>
+
+                
+            </div>
+        </div>
+    </div>
+</section>
+			<picture class="deco__wrapper deco__wrapper--last">
+				<source srcset="" media="(min-width:900px)">
+				<img src="./img/deco/deco-footer.svg" alt="" class="deco">
+			</picture>
+
+		</div>
+
+
+		
 		<script src="./js/index.bundle.js"></script>
 	</body>
 </html>

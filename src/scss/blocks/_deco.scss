@@ -1,0 +1,27 @@
+.main{
+    position: relative;
+    overflow-x: hidden;
+
+}
+
+.deco__wrapper {
+    display: block;
+    position: absolute;
+    height: max-content;
+    pointer-events: none;
+}
+
+.deco__wrapper--first{
+    right: 0;
+}
+
+.deco__wrapper--last {
+    width: 100%;
+    bottom: 0;
+
+    .deco{
+        object-fit: cover;
+        width: 100%;
+    }
+}
+
